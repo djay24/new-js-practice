@@ -115,36 +115,53 @@
  * if / else statements
  */
 
+//  var firstName = 'John';
+//  var civilStatus = 'single';
+
+//  if (civilStatus === 'married') {
+//     console.log(firstName + ' is married!')
+//  } else {
+//     console.log(firstName + ' is not married!')
+//  }
+
+//  var isMarried = true; 
+//  if (isMarried) {
+//     console.log(firstName + ' is married!')
+//  } else {
+//     console.log(firstName + ' is not married!')
+//  }
+
+//   var johnMass = 92; // kg
+//  var markMass = 78;
+
+//  var johnHeight = 1.95; // meters
+//  var markHeight = 1.69;
+
+//  var johnBMI = johnMass / (johnHeight * johnHeight);
+//  var markBMI = markMass / (markHeight * markHeight);
+
+//  if (markBMI > johnBMI) {
+//      console.log('Mark has a higher bmi that john');
+//  } else {
+//      console.log('John has a higher bmi than Mark');
+//  }
+
+// //  var bmiCompare = johnBMI > markBMI;
+// //  console.log(johnBMI.toFixed(1), markBMI.toFixed(1), bmiCompare);
+
+/*************
+ * Boolean logic
+ */
+
  var firstName = 'John';
- var civilStatus = 'single';
+ var age = 20;
 
- if (civilStatus === 'married') {
-    console.log(firstName + ' is married!')
- } else {
-    console.log(firstName + ' is not married!')
+ if (age < 13 ) {
+     console.log(firstName + ' is a boy')
+ } else if (age >= 13 && age < 20 ) {
+    console.log(firstName + ' is a teenager')
+    } else if (age >= 20 && age < 30) {
+        console.log(firstName + ' is a young man')
+    } else {
+    console.log(firstName + ' is a man')
  }
-
- var isMarried = true; 
- if (isMarried) {
-    console.log(firstName + ' is married!')
- } else {
-    console.log(firstName + ' is not married!')
- }
-
-  var johnMass = 92; // kg
- var markMass = 78;
-
- var johnHeight = 1.95; // meters
- var markHeight = 1.69;
-
- var johnBMI = johnMass / (johnHeight * johnHeight);
- var markBMI = markMass / (markHeight * markHeight);
-
- if (markBMI > johnBMI) {
-     console.log('Mark has a higher bmi that john');
- } else {
-     console.log('John has a higher bmi than Mark');
- }
-
-//  var bmiCompare = johnBMI > markBMI;
-//  console.log(johnBMI.toFixed(1), markBMI.toFixed(1), bmiCompare);
