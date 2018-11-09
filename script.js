@@ -223,3 +223,60 @@
  *  Truthy and Falsy Values and equality operators
  */
 
+// falsy  values: undefined, null, 0, '', NaN
+// truthy values: NOT falsy values
+
+// var height;
+
+// height = 23;
+// if (height || height == 0) {
+//     console.log('variable is defined')
+// } else {
+//     console.log('variable is not defined')
+// }
+
+// // equality operators
+
+// if (height == '23') {
+//     console.log('The == does type coercion');
+// };
+
+/******
+ * coding challenge 2
+ */
+
+// var johnTeamAverage = (95 + 84 + 120) / 3;
+
+// var mikeTeamAverage = (103 + 95 + 102) / 3;
+
+// var maryTeamAverage = (97 + 135 + 105) / 3;
+// console.log(johnTeamAverage, mikeTeamAverage, maryTeamAverage)
+
+// // // terinary
+// // johnTeamAverage > mikeTeamAverage ? 
+// // console.log("John's team averages more than Mike's with an average score of " + johnTeamAverage ) : 
+// // console.log("Mike's team averages more than John's with an average score of " + mikeTeamAverage);
+
+// // this is how you would add the third team to the logic
+// if (johnTeamAverage > mikeTeamAverage && johnTeamAverage > maryTeamAverage) {
+//     console.log("Johns team wins");
+// } else if (mikeTeamAverage > johnTeamAverage && mikeTeamAverage > maryTeamAverage) {
+//     console.log('Mikes team wins');
+// } else if (maryTeamAverage > johnTeamAverage && maryTeamAverage > mikeTeamAverage) {
+//     console.log('Marys team wins')
+// } else {
+//     console.log('There is a draw')
+// }
+
+// // if / else
+// // if (johnTeamAverage > mikeTeamAverage) {
+// //     console.log("John's team averages more than Mike's with an average score of " + johnTeamAverage )
+// // } else if ( mikeTeamAverage > johnTeamAverage ) {
+// //     console.log("Mike's team averages more than John's with an average score of " + mikeTeamAverage)
+// // } else {
+// //     console.log('There is a draw')
+// // }
+
+/********
+ * Functions
+ */
