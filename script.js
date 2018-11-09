@@ -280,3 +280,57 @@
 /********
  * Functions
  */
+
+// function calculateAge(birthyear) {
+//     return 2018 - birthyear;
+// }
+
+// var ageJohn = calculateAge(1990);
+// var ageMike = calculateAge(1948);
+// var ageJane = calculateAge(1969);
+// console.log(ageJohn, ageMike, ageJane);
+
+// function yearsUnitlRetirement(year, firstName) {
+//     var age = calculateAge(year);
+//     var retirement = 65 - age;
+//     if (retirement > 0) {
+//     console.log(firstName + ' retires in ' + retirement + ' years.')
+//     } else {
+//         console.log(firstName + ' is already retired')
+//     }
+// } 
+
+// yearsUnitlRetirement(1990, 'John')
+// yearsUnitlRetirement(1948, 'Mike')
+// yearsUnitlRetirement(1969, 'Jane')
+
+/*********
+ * Function statements and expressions
+ */
+
+// Function decleration
+// function whatDoYOuDO(job, firstName) {}
+
+ // Function Expression
+//  var whatDoYOuDo = function(job, firstName) {
+//      switch(job) {
+//          case 'teacher':
+//             return firstName + ' teaches kids how to code'
+//          case 'driver': 
+//             return firstName + ' drives for uber in Los Angeles'
+//          case 'designer': 
+//             return firstName + ' designs nice websites'
+//          default:
+//             return firstName + ' does something else'
+//      }
+//  }
+
+//  console.log(whatDoYOuDo('teacher', 'John'));
+//  console.log(whatDoYOuDo('designer', 'Jane'));
+//  console.log(whatDoYOuDo('retired', 'Mike')); 
+
+/********
+ * Arrays
+ */
+
+ 
