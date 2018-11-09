@@ -364,27 +364,76 @@
 /********
  * Coding challenge 3
  */
- dinnerPrices = [124, 48, 268];
+//  dinnerPrices = [124, 48, 268];
  
- function tipCalculator(bill) {
-    var percentage;
-    if (bill < 50) {
-        percentage = .2;
-     } else if (bill >= 50 && bill < 200  ) {
-        percentage = .15;
-     } else {
-        percentage = .1;
-     } 
-     return percentage * bill;
- }
+//  function tipCalculator(bill) {
+//     var percentage;
+//     if (bill < 50) {
+//         percentage = .2;
+//      } else if (bill >= 50 && bill < 200  ) {
+//         percentage = .15;
+//      } else {
+//         percentage = .1;
+//      } 
+//      return percentage * bill;
+//  }
 
- console.log(tipCalculator(300));
+//  console.log(tipCalculator(300));
 
- var bills = [124, 48, 268];
- var tips = [tipCalculator(bills[0]),
-             tipCalculator(bills[1]),
-             tipCalculator(bills[2])];
-var finalValues = [bills[0] + tips[0],
-                    bills[1] + tips[1],
-                    bills[2] + tips[2] ]
-    console.log(tips, finalValues);
+//  var bills = [124, 48, 268];
+//  var tips = [tipCalculator(bills[0]),
+//              tipCalculator(bills[1]),
+//              tipCalculator(bills[2])];
+// var finalValues = [bills[0] + tips[0],
+//                     bills[1] + tips[1],
+//                     bills[2] + tips[2] ]
+//     console.log(tips, finalValues);
+
+/*******
+ * objects and properties
+ */
+
+//  // object literal
+//  var john = {
+//      firstName: 'John',
+//      lastName: 'Smith',
+//      birthYear: 1990,
+//      family: ['Jane', 'Mark', 'Bob', 'Emilly'],
+//      job: 'teacher',
+//      isMarried: false
+//  };
+
+//  console.log(john.firstName); // dot notation
+//  console.log(john['lastName']); // using bracket notation
+//  var x = 'birthYear'
+//  console.log(john[x]);
+
+//  john.job = 'designer'; // mutating data
+//  john['isMarried'] = true;
+//  console.log(john);
+
+//  // new object syntax
+//  var jane = new Object( );
+// jane.firstName = 'Jane';
+// jane.birthYear = 1969;
+// jane['lastName'] = 'Smith';
+// console.log(jane)
+
+/******
+ * objects and methods
+ */
+
+// var john = {
+//          firstName: 'John',
+//          lastName: 'Smith',
+//          birthYear: 1992,
+//          family: ['Jane', 'Mark', 'Bob', 'Emilly'],
+//          job: 'teacher',
+//          isMarried: false, 
+//          calcAge: function() {
+//              this.age = 2018 - this.birthYear; // this keyword looks within its own object
+//          }
+//      };
+
+// john.calcAge();
+// console.log(john);
