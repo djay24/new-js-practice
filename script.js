@@ -333,4 +333,30 @@
  * Arrays
  */
 
- 
+ // initialize new array
+//  var names = ['John', 'Mike', 'Jane'];
+//  var years = new Array(1990, 1969, 1948);
+
+//  console.log(names[2])
+//  console.log(names.length)
+
+// // mutate array data
+//  names[1] = 'Ben'
+//  names[names.length] = 'Mary';
+//  console.log(names)
+
+//  // different data types
+// var john = ['John', 'Smith', 1990, 'designer', false];
+
+// john.push('blue');
+// john.unshift('Mr.')
+// console.log(john);
+
+// john.pop(); // removes the last element of the array
+// john.shift(); // removes the first element of the array
+// console.log(john);
+
+// console.log(john.indexOf(1990)); // shows the number of where the item is at in array if -1 it is not in array
+
+// var isDesigner = john.indexOf('designer') === -1 ? 'John is not a designer' : 'John is a designer';
+// console.log(isDesigner);
