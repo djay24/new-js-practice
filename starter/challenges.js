@@ -13,9 +13,7 @@ var scores, roundScore, activePlayer, gamePlaying;
 
 init();
 
-// dice = Math.floor(Math.random() * 6) + 1; // how to get a random number one through six
-
-
+var lastDice;
 
 document.querySelector('.btn-roll').addEventListener('click', function() {
     // writing function in event listener
@@ -29,7 +27,12 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
     diceDom.src = 'dice-' + dice + '.png';
 
     // 3. Update the round score IF the rolled number is not a 1
-    if (dice != 1) {
+    if (dice === 6 && lastDice === 6) {
+        //player loses score
+        scores[activePlayer] = 0;
+        document.querySelector('#score-' + activePlayer).textContent = '0';
+        nextPlayer();
+    } else if (dice != 1) {
         // Add score
         roundScore += dice;
         // roundScore = roundScore + dice
@@ -40,6 +43,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
  }
     }
    
+    lastDice = dice;
 
 });
 
