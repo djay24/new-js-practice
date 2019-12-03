@@ -630,3 +630,13 @@
 /**********
  * 
  */
+
+//  let testButton = document.getElementById('submitButton');
+//  testButton.addEventListener("click", function(){
+//     alert("hello");
+//  });
+
+ let submitButton = document.getElementById('submitButton');
+ submitButton.addEventListener("click", function() {
+     alert('hello');    
+  });
